@@ -1,0 +1,18 @@
+.c-board {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.c-board__column {
+    padding: 0 20px;
+    min-height: 100px;
+    background-color: goldenrod;
+}
+
+.c-board__task {
+    height: 50px;
+    width: 100px;
+    border: 1px solid grey;
+    margin: 10px 0;
+}

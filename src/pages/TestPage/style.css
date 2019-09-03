@@ -1,0 +1,14 @@
+.l-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.l-container__main {
+    background-color: green;
+    flex-grow: 1;
+}
+
+.l-container__aside {
+    background-color: yellow;
+    padding: 0 50px;
+}
